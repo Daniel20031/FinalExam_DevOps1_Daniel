@@ -1,0 +1,11 @@
+[0;1;31m●[0m jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Fri 2024-11-08 02:27:24 UTC; 5s ago
+    Process: 76627 ExecStart=/usr/bin/jenkins [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 76627 (code=exited, status=1/FAILURE)
+
+Nov 08 02:27:24 labvm systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 6.
+Nov 08 02:27:24 labvm systemd[1]: Stopped Jenkins Continuous Integration Server.
+Nov 08 02:27:24 labvm systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Nov 08 02:27:24 labvm systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+Nov 08 02:27:24 labvm systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
